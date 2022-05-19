@@ -1,5 +1,7 @@
 pushd "%~dp0"
 
-"%programfiles(x86)%\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\msbuild.exe" checker.csproj
+echo goingformsbuild
+
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\MSBuild.exe" checker.csproj
 
 popd
